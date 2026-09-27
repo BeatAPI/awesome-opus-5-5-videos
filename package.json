@@ -1,0 +1,8 @@
+{
+  "name": "awesome-opus-5-5-videos",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node scripts/validate-catalog.mjs"
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "sourceRevision": "1c092195b7bda246455827bc0be820be6d6a7b97",
+  "reviewedAt": "2026-09-27",
+  "cases": [
+    {
+      "id": "twoclipping-402193",
+      "title": "Morphing UI states",
+      "summary": "A shape changes through multiple interface states, showing how SVG motion can connect product moments.",
+      "category": "motion",
+      "techTags": [
+        "svg"
+      ],
+      "creator": "twoclipping",
+      "originalPostUrl": "https://x.com/twoclipping/status/2103273003555402193",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/twoclipping-402193.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    },
+    {
+      "id": "anabology-491441",
+      "title": "Music led progress montage",
+      "summary": "A motion piece built around a supplied song and reference clip, with Canvas and image assets.",
+      "category": "motion",
+      "techTags": [
+        "canvas",
+        "ai-image"
+      ],
+      "creator": "anabology",
+      "originalPostUrl": "https://x.com/anabology/status/2103534482930491441",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/anabology-491441.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    },
+    {
+      "id": "moritzkremb-466494",
+      "title": "SaaS launch sequence",
+      "summary": "A product launch video concept assembled with SVG and GSAP transitions.",
+      "category": "motion",
+      "techTags": [
+        "svg",
+        "gsap"
+      ],
+      "creator": "moritzkremb",
+      "originalPostUrl": "https://x.com/moritzkremb/status/2103066071838466494",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/moritzkremb-466494.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    },
+    {
+      "id": "melvynx-638493",
+      "title": "Website motion showreel",
+      "summary": "A short portfolio style motion piece based on a website and animated with Canvas, SVG, and GSAP.",
+      "category": "motion",
+      "techTags": [
+        "canvas",
+        "svg",
+        "gsap"
+      ],
+      "creator": "melvynx",
+      "originalPostUrl": "https://x.com/melvynx/status/2103714680577638493",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/melvynx-638493.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    },
+    {
+      "id": "ajith-io-890146",
+      "title": "Motion designer showreel",
+      "summary": "A fifteen second brief asking for a striking animated design portfolio piece.",
+      "category": "motion",
+      "techTags": [
+        "canvas"
+      ],
+      "creator": "ajith_io",
+      "originalPostUrl": "https://x.com/ajith_io/status/2103449416325890146",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/ajith-io-890146.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    },
+    {
+      "id": "koldo2k-778767",
+      "title": "Infinite zoom collage",
+      "summary": "A looping zoom through connected landscapes and vintage objects, with layered imagery and sound.",
+      "category": "explainer",
+      "techTags": [
+        "canvas",
+        "ai-image"
+      ],
+      "creator": "koldo2k",
+      "originalPostUrl": "https://x.com/koldo2k/status/2103129343253778767",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/koldo2k-778767.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    },
+    {
+      "id": "ror-fly-880547",
+      "title": "Animated recipe explainer",
+      "summary": "A cooking recipe is translated into a JavaScript or HTML motion graphic.",
+      "category": "explainer",
+      "techTags": [
+        "canvas"
+      ],
+      "creator": "Ror_Fly",
+      "originalPostUrl": "https://x.com/Ror_Fly/status/2102853258582880547",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/ror-fly-880547.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    },
+    {
+      "id": "deedydas-252537",
+      "title": "Inference startup explainer",
+      "summary": "A concise animated product story for an inference startup, using SVG and GSAP.",
+      "category": "explainer",
+      "techTags": [
+        "svg",
+        "gsap"
+      ],
+      "creator": "deedydas",
+      "originalPostUrl": "https://x.com/deedydas/status/2102787937482252537",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/deedydas-252537.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    },
+    {
+      "id": "verbove-268381",
+      "title": "Product UI story",
+      "summary": "An input driven product walkthrough built from real interface states and brand assets.",
+      "category": "explainer",
+      "techTags": [
+        "canvas"
+      ],
+      "creator": "verbove",
+      "originalPostUrl": "https://x.com/verbove/status/2103483957266268381",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/verbove-268381.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    },
+    {
+      "id": "linearuncle-971663",
+      "title": "Derivative lesson animation",
+      "summary": "A Chinese language teaching brief for an accessible visual explanation of derivatives.",
+      "category": "explainer",
+      "techTags": [
+        "svg",
+        "audio"
+      ],
+      "creator": "LinearUncle",
+      "originalPostUrl": "https://x.com/LinearUncle/status/2103128559174971663",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/linearuncle-971663.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    },
+    {
+      "id": "dannnnnok-716687",
+      "title": "3D motion portfolio",
+      "summary": "A motion design showreel concept using a Three.js and Canvas based scene.",
+      "category": "3d",
+      "techTags": [
+        "threejs",
+        "canvas"
+      ],
+      "creator": "Dannnnnok",
+      "originalPostUrl": "https://x.com/Dannnnnok/status/2103846630088716687",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/dannnnnok-716687.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    },
+    {
+      "id": "bthreeagency-827092",
+      "title": "Badge unlock motion",
+      "summary": "A Figma design becomes an animated badge unlock screen while preserving its original assets and layout.",
+      "category": "3d",
+      "techTags": [
+        "canvas",
+        "svg",
+        "css"
+      ],
+      "creator": "BThreeAgency",
+      "originalPostUrl": "https://x.com/BThreeAgency/status/2103739079745827092",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/bthreeagency-827092.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    },
+    {
+      "id": "alexalbert-274839",
+      "title": "Historic city reconstruction",
+      "summary": "A browser era brief to recreate a 1906 San Francisco street scene in three dimensions.",
+      "category": "3d",
+      "techTags": [
+        "threejs",
+        "shader",
+        "canvas"
+      ],
+      "creator": "alexalbert__",
+      "originalPostUrl": "https://x.com/alexalbert__/status/2102466523164274839",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/alexalbert-274839.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    },
+    {
+      "id": "michaelzsguo-782312",
+      "title": "Sand animation timeline",
+      "summary": "A long form sand animation concept for presenting a historical timeline.",
+      "category": "3d",
+      "techTags": [
+        "shader",
+        "canvas"
+      ],
+      "creator": "Michaelzsguo",
+      "originalPostUrl": "https://x.com/Michaelzsguo/status/2102592355165782312",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/michaelzsguo-782312.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    },
+    {
+      "id": "lukasersil-726495",
+      "title": "Shader driven showreel",
+      "summary": "A high energy motion portfolio concept combining Three.js, shader effects, Canvas, and SVG.",
+      "category": "3d",
+      "techTags": [
+        "threejs",
+        "shader",
+        "canvas",
+        "svg"
+      ],
+      "creator": "lukasersil",
+      "originalPostUrl": "https://x.com/lukasersil/status/2103742861971726495",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/lukasersil-726495.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    },
+    {
+      "id": "mandelduck-768972",
+      "title": "Painting world exploration",
+      "summary": "An explorable 3D game concept set within a painted night landscape.",
+      "category": "interactive",
+      "techTags": [
+        "threejs",
+        "shader",
+        "canvas"
+      ],
+      "creator": "MandelDuck",
+      "originalPostUrl": "https://x.com/MandelDuck/status/2103802923465768972",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/mandelduck-768972.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    },
+    {
+      "id": "gandamu-ml-220530",
+      "title": "1990s demoscene",
+      "summary": "An interactive graphics demo brief driven by a music track and shader effects.",
+      "category": "interactive",
+      "techTags": [
+        "threejs",
+        "shader",
+        "canvas",
+        "audio"
+      ],
+      "creator": "gandamu_ml",
+      "originalPostUrl": "https://x.com/gandamu_ml/status/2102919394775220530",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/gandamu-ml-220530.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    },
+    {
+      "id": "zacxbt-944604",
+      "title": "Pixel wizard in one HTML file",
+      "summary": "A self contained Canvas scene featuring an animated pixel art wizard.",
+      "category": "interactive",
+      "techTags": [
+        "canvas",
+        "pixel",
+        "playable"
+      ],
+      "creator": "zacxbt",
+      "originalPostUrl": "https://x.com/zacxbt/status/2103808699466944604",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/zacxbt-944604.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    },
+    {
+      "id": "lexnlin-241739",
+      "title": "Explore a 3D world",
+      "summary": "A freely navigable browser world focused on original landscape and architecture.",
+      "category": "interactive",
+      "techTags": [
+        "threejs",
+        "shader"
+      ],
+      "creator": "LexnLin",
+      "originalPostUrl": "https://x.com/LexnLin/status/2103194052850241739",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/lexnlin-241739.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    },
+    {
+      "id": "aisongman-461057",
+      "title": "Pixel card game",
+      "summary": "A playable one on one card game concept with pixel art presentation.",
+      "category": "interactive",
+      "techTags": [
+        "canvas",
+        "pixel",
+        "playable"
+      ],
+      "creator": "aisongman",
+      "originalPostUrl": "https://x.com/aisongman/status/2103763192971461057",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/aisongman-461057.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding"
+    }
+  ]
+}
