@@ -12,4 +12,6 @@ Do not copy a third-party prompt or media merely because it is publicly viewable
 
 Catalog entries are validated with `npm test`. Deduplicate by original post URL; a shared prompt can produce different creator works.
 
+After editing `cases/catalog.json`, run `npm run gallery:sync` to update both README galleries, then run `npm test`.
+
 For a correction or takedown, open an issue titled `Correction: <case id>` or `Takedown: <case id>`, or email `support@beatapi.io`. Include the case URL and your relationship to the work. Maintainers will review a credible rights claim promptly.

@@ -6,7 +6,10 @@
 
 这里的“视频”主要来自 HTML、Canvas、SVG、Three.js 等代码运行后的动画或交互场景，再由创作者录屏。**这不是把 Opus 5.5 描述成原生文生视频模型。**
 
-[浏览案例页面](https://beatapi.io/zh/opus-5-5-videos) · [Opus 5.5 API](https://beatapi.io/zh/claude-opus-5-5-api) · [English](README.md)
+**[浏览案例页面](https://beatapi.io/zh/opus-5-5-videos)** ·
+**[Opus 5.5 API](https://beatapi.io/zh/claude-opus-5-5-api)** ·
+**[English](README.md)** ·
+**[提交案例](CONTRIBUTING.md)**
 
 首批 20 个案例保存在 [`cases/catalog.json`](cases/catalog.json)，覆盖动态视觉、讲解动画、3D 场景和游戏交互。每条保留创作者、原帖、上游提示词以及证据和使用权限状态。
 
@@ -16,41 +19,341 @@
 
 点击预览图可到 Skillry 观看原片与重制版，并可单独打开创作者原帖。18 条有可核对的外部预览；另 2 条只保留原帖入口。预览图由 Skillry 托管，可能显示其重制版；本仓库不托管第三方视频、预览图或提示词。
 
+<!-- GENERATED_CASE_GALLERY_START -->
+
 <a id="motion"></a>
 
-### 动态视觉 (5)
+**动态视觉 (5)**
 
-<table>
-<tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/anabology-491441"><img src="https://media.skillry.dev/opus-5-5/anabology-491441/preview.webp" alt="外部视频预览: Music led progress montage" width="100%"></a><br><b>Music led progress montage</b><br><sub><a href="https://x.com/anabology/status/2103534482930491441">@anabology</a> · canvas / ai-image</sub><br><a href="https://skillry.dev/ai-videos/opus-5-5/anabology-491441">观看原片与重制版 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/anabology-491441.md">上游提示词</a></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/moritzkremb-466494"><img src="https://media.skillry.dev/opus-5-5/moritzkremb-466494/preview.webp" alt="外部视频预览: SaaS launch sequence" width="100%"></a><br><b>SaaS launch sequence</b><br><sub><a href="https://x.com/moritzkremb/status/2103066071838466494">@moritzkremb</a> · svg / gsap</sub><br><a href="https://skillry.dev/ai-videos/opus-5-5/moritzkremb-466494">观看原片与重制版 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/moritzkremb-466494.md">上游提示词</a></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/melvynx-638493"><img src="https://media.skillry.dev/opus-5-5/melvynx-638493/preview.webp" alt="外部视频预览: Website motion showreel" width="100%"></a><br><b>Website motion showreel</b><br><sub><a href="https://x.com/melvynx/status/2103714680577638493">@melvynx</a> · canvas / svg / gsap</sub><br><a href="https://skillry.dev/ai-videos/opus-5-5/melvynx-638493">观看原片与重制版 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/melvynx-638493.md">上游提示词</a></td></tr>
-<tr><td width="33%" valign="top"><b>Morphing UI states</b><br><sub><a href="https://x.com/twoclipping/status/2103273003555402193">@twoclipping</a> · svg</sub><br><a href="https://x.com/twoclipping/status/2103273003555402193">在原帖观看 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/twoclipping-402193.md">上游提示词</a></td><td width="33%" valign="top"><b>Motion designer showreel</b><br><sub><a href="https://x.com/ajith_io/status/2103449416325890146">@ajith_io</a> · canvas</sub><br><a href="https://x.com/ajith_io/status/2103449416325890146">在原帖观看 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/ajith-io-890146.md">上游提示词</a></td><td width="33%"></td></tr>
-</table>
+### 1. Music led progress montage
+
+<a href="https://skillry.dev/ai-videos/opus-5-5/anabology-491441">
+  <img src="https://media.skillry.dev/opus-5-5/anabology-491441/preview.webp" alt="外部视频预览: Music led progress montage" width="700" />
+</a>
+
+A motion piece built around a supplied song and reference clip, with Canvas and image assets.
+
+[![观看视频](https://img.shields.io/badge/WATCH_VIDEO-3158E8?style=for-the-badge)](https://skillry.dev/ai-videos/opus-5-5/anabology-491441)
+
+**原帖:** [@anabology](https://x.com/anabology/status/2103534482930491441) · canvas / ai-image · Skillry 外部观看页，可能含重制版
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/anabology-491441.md)
+
+---
+
+### 2. SaaS launch sequence
+
+<a href="https://skillry.dev/ai-videos/opus-5-5/moritzkremb-466494">
+  <img src="https://media.skillry.dev/opus-5-5/moritzkremb-466494/preview.webp" alt="外部视频预览: SaaS launch sequence" width="700" />
+</a>
+
+A product launch video concept assembled with SVG and GSAP transitions.
+
+[![观看视频](https://img.shields.io/badge/WATCH_VIDEO-3158E8?style=for-the-badge)](https://skillry.dev/ai-videos/opus-5-5/moritzkremb-466494)
+
+**原帖:** [@moritzkremb](https://x.com/moritzkremb/status/2103066071838466494) · svg / gsap · Skillry 外部观看页，可能含重制版
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/moritzkremb-466494.md)
+
+---
+
+### 3. Website motion showreel
+
+<a href="https://skillry.dev/ai-videos/opus-5-5/melvynx-638493">
+  <img src="https://media.skillry.dev/opus-5-5/melvynx-638493/preview.webp" alt="外部视频预览: Website motion showreel" width="700" />
+</a>
+
+A short portfolio style motion piece based on a website and animated with Canvas, SVG, and GSAP.
+
+[![观看视频](https://img.shields.io/badge/WATCH_VIDEO-3158E8?style=for-the-badge)](https://skillry.dev/ai-videos/opus-5-5/melvynx-638493)
+
+**原帖:** [@melvynx](https://x.com/melvynx/status/2103714680577638493) · canvas / svg / gsap · Skillry 外部观看页，可能含重制版
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/melvynx-638493.md)
+
+---
+
+### 4. Morphing UI states
+
+_暂无可核对的视频预览；请在创作者原帖观看。_
+
+A shape changes through multiple interface states, showing how SVG motion can connect product moments.
+
+[![观看原帖](https://img.shields.io/badge/WATCH_ORIGINAL-3158E8?style=for-the-badge)](https://x.com/twoclipping/status/2103273003555402193)
+
+**原帖:** [@twoclipping](https://x.com/twoclipping/status/2103273003555402193) · svg
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/twoclipping-402193.md)
+
+---
+
+### 5. Motion designer showreel
+
+_暂无可核对的视频预览；请在创作者原帖观看。_
+
+A fifteen second brief asking for a striking animated design portfolio piece.
+
+[![观看原帖](https://img.shields.io/badge/WATCH_ORIGINAL-3158E8?style=for-the-badge)](https://x.com/ajith_io/status/2103449416325890146)
+
+**原帖:** [@ajith_io](https://x.com/ajith_io/status/2103449416325890146) · canvas
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/ajith-io-890146.md)
+
+---
 
 <a id="explainer"></a>
 
-### 讲解动画 (5)
+**讲解动画 (5)**
 
-<table>
-<tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/koldo2k-778767"><img src="https://media.skillry.dev/opus-5-5/koldo2k-778767/preview.webp" alt="外部视频预览: Infinite zoom collage" width="100%"></a><br><b>Infinite zoom collage</b><br><sub><a href="https://x.com/koldo2k/status/2103129343253778767">@koldo2k</a> · canvas / ai-image</sub><br><a href="https://skillry.dev/ai-videos/opus-5-5/koldo2k-778767">观看原片与重制版 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/koldo2k-778767.md">上游提示词</a></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/ror-fly-880547"><img src="https://media.skillry.dev/opus-5-5/ror-fly-880547/preview.webp" alt="外部视频预览: Animated recipe explainer" width="100%"></a><br><b>Animated recipe explainer</b><br><sub><a href="https://x.com/Ror_Fly/status/2102853258582880547">@Ror_Fly</a> · canvas</sub><br><a href="https://skillry.dev/ai-videos/opus-5-5/ror-fly-880547">观看原片与重制版 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/ror-fly-880547.md">上游提示词</a></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/deedydas-252537"><img src="https://media.skillry.dev/opus-5-5/deedydas-252537/preview.webp" alt="外部视频预览: Inference startup explainer" width="100%"></a><br><b>Inference startup explainer</b><br><sub><a href="https://x.com/deedydas/status/2102787937482252537">@deedydas</a> · svg / gsap</sub><br><a href="https://skillry.dev/ai-videos/opus-5-5/deedydas-252537">观看原片与重制版 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/deedydas-252537.md">上游提示词</a></td></tr>
-<tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/verbove-268381"><img src="https://media.skillry.dev/opus-5-5/verbove-268381/preview.webp" alt="外部视频预览: Product UI story" width="100%"></a><br><b>Product UI story</b><br><sub><a href="https://x.com/verbove/status/2103483957266268381">@verbove</a> · canvas</sub><br><a href="https://skillry.dev/ai-videos/opus-5-5/verbove-268381">观看原片与重制版 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/verbove-268381.md">上游提示词</a></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/linearuncle-971663"><img src="https://media.skillry.dev/opus-5-5/linearuncle-971663/preview.webp" alt="外部视频预览: Derivative lesson animation" width="100%"></a><br><b>Derivative lesson animation</b><br><sub><a href="https://x.com/LinearUncle/status/2103128559174971663">@LinearUncle</a> · svg / audio</sub><br><a href="https://skillry.dev/ai-videos/opus-5-5/linearuncle-971663">观看原片与重制版 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/linearuncle-971663.md">上游提示词</a></td><td width="33%"></td></tr>
-</table>
+### 6. Infinite zoom collage
+
+<a href="https://skillry.dev/ai-videos/opus-5-5/koldo2k-778767">
+  <img src="https://media.skillry.dev/opus-5-5/koldo2k-778767/preview.webp" alt="外部视频预览: Infinite zoom collage" width="700" />
+</a>
+
+A looping zoom through connected landscapes and vintage objects, with layered imagery and sound.
+
+[![观看视频](https://img.shields.io/badge/WATCH_VIDEO-3158E8?style=for-the-badge)](https://skillry.dev/ai-videos/opus-5-5/koldo2k-778767)
+
+**原帖:** [@koldo2k](https://x.com/koldo2k/status/2103129343253778767) · canvas / ai-image · Skillry 外部观看页，可能含重制版
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/koldo2k-778767.md)
+
+---
+
+### 7. Animated recipe explainer
+
+<a href="https://skillry.dev/ai-videos/opus-5-5/ror-fly-880547">
+  <img src="https://media.skillry.dev/opus-5-5/ror-fly-880547/preview.webp" alt="外部视频预览: Animated recipe explainer" width="700" />
+</a>
+
+A cooking recipe is translated into a JavaScript or HTML motion graphic.
+
+[![观看视频](https://img.shields.io/badge/WATCH_VIDEO-3158E8?style=for-the-badge)](https://skillry.dev/ai-videos/opus-5-5/ror-fly-880547)
+
+**原帖:** [@Ror_Fly](https://x.com/Ror_Fly/status/2102853258582880547) · canvas · Skillry 外部观看页，可能含重制版
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/ror-fly-880547.md)
+
+---
+
+### 8. Inference startup explainer
+
+<a href="https://skillry.dev/ai-videos/opus-5-5/deedydas-252537">
+  <img src="https://media.skillry.dev/opus-5-5/deedydas-252537/preview.webp" alt="外部视频预览: Inference startup explainer" width="700" />
+</a>
+
+A concise animated product story for an inference startup, using SVG and GSAP.
+
+[![观看视频](https://img.shields.io/badge/WATCH_VIDEO-3158E8?style=for-the-badge)](https://skillry.dev/ai-videos/opus-5-5/deedydas-252537)
+
+**原帖:** [@deedydas](https://x.com/deedydas/status/2102787937482252537) · svg / gsap · Skillry 外部观看页，可能含重制版
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/deedydas-252537.md)
+
+---
+
+### 9. Product UI story
+
+<a href="https://skillry.dev/ai-videos/opus-5-5/verbove-268381">
+  <img src="https://media.skillry.dev/opus-5-5/verbove-268381/preview.webp" alt="外部视频预览: Product UI story" width="700" />
+</a>
+
+An input driven product walkthrough built from real interface states and brand assets.
+
+[![观看视频](https://img.shields.io/badge/WATCH_VIDEO-3158E8?style=for-the-badge)](https://skillry.dev/ai-videos/opus-5-5/verbove-268381)
+
+**原帖:** [@verbove](https://x.com/verbove/status/2103483957266268381) · canvas · Skillry 外部观看页，可能含重制版
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/verbove-268381.md)
+
+---
+
+### 10. Derivative lesson animation
+
+<a href="https://skillry.dev/ai-videos/opus-5-5/linearuncle-971663">
+  <img src="https://media.skillry.dev/opus-5-5/linearuncle-971663/preview.webp" alt="外部视频预览: Derivative lesson animation" width="700" />
+</a>
+
+A Chinese language teaching brief for an accessible visual explanation of derivatives.
+
+[![观看视频](https://img.shields.io/badge/WATCH_VIDEO-3158E8?style=for-the-badge)](https://skillry.dev/ai-videos/opus-5-5/linearuncle-971663)
+
+**原帖:** [@LinearUncle](https://x.com/LinearUncle/status/2103128559174971663) · svg / audio · Skillry 外部观看页，可能含重制版
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/linearuncle-971663.md)
+
+---
 
 <a id="3d"></a>
 
-### 3D 场景 (5)
+**3D 场景 (5)**
 
-<table>
-<tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/dannnnnok-716687"><img src="https://media.skillry.dev/opus-5-5/dannnnnok-716687/preview.webp" alt="外部视频预览: 3D motion portfolio" width="100%"></a><br><b>3D motion portfolio</b><br><sub><a href="https://x.com/Dannnnnok/status/2103846630088716687">@Dannnnnok</a> · threejs / canvas</sub><br><a href="https://skillry.dev/ai-videos/opus-5-5/dannnnnok-716687">观看原片与重制版 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/dannnnnok-716687.md">上游提示词</a></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/bthreeagency-827092"><img src="https://media.skillry.dev/opus-5-5/bthreeagency-827092/preview.webp" alt="外部视频预览: Badge unlock motion" width="100%"></a><br><b>Badge unlock motion</b><br><sub><a href="https://x.com/BThreeAgency/status/2103739079745827092">@BThreeAgency</a> · canvas / svg / css</sub><br><a href="https://skillry.dev/ai-videos/opus-5-5/bthreeagency-827092">观看原片与重制版 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/bthreeagency-827092.md">上游提示词</a></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/alexalbert-274839"><img src="https://media.skillry.dev/opus-5-5/alexalbert-274839/preview.webp" alt="外部视频预览: Historic city reconstruction" width="100%"></a><br><b>Historic city reconstruction</b><br><sub><a href="https://x.com/alexalbert__/status/2102466523164274839">@alexalbert__</a> · threejs / shader / canvas</sub><br><a href="https://skillry.dev/ai-videos/opus-5-5/alexalbert-274839">观看原片与重制版 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/alexalbert-274839.md">上游提示词</a></td></tr>
-<tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/michaelzsguo-782312"><img src="https://media.skillry.dev/opus-5-5/michaelzsguo-782312/preview.webp" alt="外部视频预览: Sand animation timeline" width="100%"></a><br><b>Sand animation timeline</b><br><sub><a href="https://x.com/Michaelzsguo/status/2102592355165782312">@Michaelzsguo</a> · shader / canvas</sub><br><a href="https://skillry.dev/ai-videos/opus-5-5/michaelzsguo-782312">观看原片与重制版 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/michaelzsguo-782312.md">上游提示词</a></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/lukasersil-726495"><img src="https://media.skillry.dev/opus-5-5/lukasersil-726495/preview.webp" alt="外部视频预览: Shader driven showreel" width="100%"></a><br><b>Shader driven showreel</b><br><sub><a href="https://x.com/lukasersil/status/2103742861971726495">@lukasersil</a> · threejs / shader / canvas / svg</sub><br><a href="https://skillry.dev/ai-videos/opus-5-5/lukasersil-726495">观看原片与重制版 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/lukasersil-726495.md">上游提示词</a></td><td width="33%"></td></tr>
-</table>
+### 11. 3D motion portfolio
+
+<a href="https://skillry.dev/ai-videos/opus-5-5/dannnnnok-716687">
+  <img src="https://media.skillry.dev/opus-5-5/dannnnnok-716687/preview.webp" alt="外部视频预览: 3D motion portfolio" width="700" />
+</a>
+
+A motion design showreel concept using a Three.js and Canvas based scene.
+
+[![观看视频](https://img.shields.io/badge/WATCH_VIDEO-3158E8?style=for-the-badge)](https://skillry.dev/ai-videos/opus-5-5/dannnnnok-716687)
+
+**原帖:** [@Dannnnnok](https://x.com/Dannnnnok/status/2103846630088716687) · threejs / canvas · Skillry 外部观看页，可能含重制版
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/dannnnnok-716687.md)
+
+---
+
+### 12. Badge unlock motion
+
+<a href="https://skillry.dev/ai-videos/opus-5-5/bthreeagency-827092">
+  <img src="https://media.skillry.dev/opus-5-5/bthreeagency-827092/preview.webp" alt="外部视频预览: Badge unlock motion" width="700" />
+</a>
+
+A Figma design becomes an animated badge unlock screen while preserving its original assets and layout.
+
+[![观看视频](https://img.shields.io/badge/WATCH_VIDEO-3158E8?style=for-the-badge)](https://skillry.dev/ai-videos/opus-5-5/bthreeagency-827092)
+
+**原帖:** [@BThreeAgency](https://x.com/BThreeAgency/status/2103739079745827092) · canvas / svg / css · Skillry 外部观看页，可能含重制版
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/bthreeagency-827092.md)
+
+---
+
+### 13. Historic city reconstruction
+
+<a href="https://skillry.dev/ai-videos/opus-5-5/alexalbert-274839">
+  <img src="https://media.skillry.dev/opus-5-5/alexalbert-274839/preview.webp" alt="外部视频预览: Historic city reconstruction" width="700" />
+</a>
+
+A browser era brief to recreate a 1906 San Francisco street scene in three dimensions.
+
+[![观看视频](https://img.shields.io/badge/WATCH_VIDEO-3158E8?style=for-the-badge)](https://skillry.dev/ai-videos/opus-5-5/alexalbert-274839)
+
+**原帖:** [@alexalbert__](https://x.com/alexalbert__/status/2102466523164274839) · threejs / shader / canvas · Skillry 外部观看页，可能含重制版
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/alexalbert-274839.md)
+
+---
+
+### 14. Sand animation timeline
+
+<a href="https://skillry.dev/ai-videos/opus-5-5/michaelzsguo-782312">
+  <img src="https://media.skillry.dev/opus-5-5/michaelzsguo-782312/preview.webp" alt="外部视频预览: Sand animation timeline" width="700" />
+</a>
+
+A long form sand animation concept for presenting a historical timeline.
+
+[![观看视频](https://img.shields.io/badge/WATCH_VIDEO-3158E8?style=for-the-badge)](https://skillry.dev/ai-videos/opus-5-5/michaelzsguo-782312)
+
+**原帖:** [@Michaelzsguo](https://x.com/Michaelzsguo/status/2102592355165782312) · shader / canvas · Skillry 外部观看页，可能含重制版
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/michaelzsguo-782312.md)
+
+---
+
+### 15. Shader driven showreel
+
+<a href="https://skillry.dev/ai-videos/opus-5-5/lukasersil-726495">
+  <img src="https://media.skillry.dev/opus-5-5/lukasersil-726495/preview.webp" alt="外部视频预览: Shader driven showreel" width="700" />
+</a>
+
+A high energy motion portfolio concept combining Three.js, shader effects, Canvas, and SVG.
+
+[![观看视频](https://img.shields.io/badge/WATCH_VIDEO-3158E8?style=for-the-badge)](https://skillry.dev/ai-videos/opus-5-5/lukasersil-726495)
+
+**原帖:** [@lukasersil](https://x.com/lukasersil/status/2103742861971726495) · threejs / shader / canvas / svg · Skillry 外部观看页，可能含重制版
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/lukasersil-726495.md)
+
+---
 
 <a id="interactive"></a>
 
-### 游戏与交互 (5)
+**游戏与交互 (5)**
 
-<table>
-<tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/mandelduck-768972"><img src="https://media.skillry.dev/opus-5-5/mandelduck-768972/preview.webp" alt="外部视频预览: Painting world exploration" width="100%"></a><br><b>Painting world exploration</b><br><sub><a href="https://x.com/MandelDuck/status/2103802923465768972">@MandelDuck</a> · threejs / shader / canvas</sub><br><a href="https://skillry.dev/ai-videos/opus-5-5/mandelduck-768972">观看原片与重制版 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/mandelduck-768972.md">上游提示词</a></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/gandamu-ml-220530"><img src="https://media.skillry.dev/opus-5-5/gandamu-ml-220530/preview.webp" alt="外部视频预览: 1990s demoscene" width="100%"></a><br><b>1990s demoscene</b><br><sub><a href="https://x.com/gandamu_ml/status/2102919394775220530">@gandamu_ml</a> · threejs / shader / canvas / audio</sub><br><a href="https://skillry.dev/ai-videos/opus-5-5/gandamu-ml-220530">观看原片与重制版 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/gandamu-ml-220530.md">上游提示词</a></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/zacxbt-944604"><img src="https://media.skillry.dev/opus-5-5/zacxbt-944604/preview.webp" alt="外部视频预览: Pixel wizard in one HTML file" width="100%"></a><br><b>Pixel wizard in one HTML file</b><br><sub><a href="https://x.com/zacxbt/status/2103808699466944604">@zacxbt</a> · canvas / pixel / playable</sub><br><a href="https://skillry.dev/ai-videos/opus-5-5/zacxbt-944604">观看原片与重制版 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/zacxbt-944604.md">上游提示词</a></td></tr>
-<tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/lexnlin-241739"><img src="https://media.skillry.dev/opus-5-5/lexnlin-241739/preview.webp" alt="外部视频预览: Explore a 3D world" width="100%"></a><br><b>Explore a 3D world</b><br><sub><a href="https://x.com/LexnLin/status/2103194052850241739">@LexnLin</a> · threejs / shader</sub><br><a href="https://skillry.dev/ai-videos/opus-5-5/lexnlin-241739">观看原片与重制版 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/lexnlin-241739.md">上游提示词</a></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/aisongman-461057"><img src="https://media.skillry.dev/opus-5-5/aisongman-461057/preview.webp" alt="外部视频预览: Pixel card game" width="100%"></a><br><b>Pixel card game</b><br><sub><a href="https://x.com/aisongman/status/2103763192971461057">@aisongman</a> · canvas / pixel / playable</sub><br><a href="https://skillry.dev/ai-videos/opus-5-5/aisongman-461057">观看原片与重制版 ↗</a> · <a href="https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/aisongman-461057.md">上游提示词</a></td><td width="33%"></td></tr>
-</table>
+### 16. Painting world exploration
+
+<a href="https://skillry.dev/ai-videos/opus-5-5/mandelduck-768972">
+  <img src="https://media.skillry.dev/opus-5-5/mandelduck-768972/preview.webp" alt="外部视频预览: Painting world exploration" width="700" />
+</a>
+
+An explorable 3D game concept set within a painted night landscape.
+
+[![观看视频](https://img.shields.io/badge/WATCH_VIDEO-3158E8?style=for-the-badge)](https://skillry.dev/ai-videos/opus-5-5/mandelduck-768972)
+
+**原帖:** [@MandelDuck](https://x.com/MandelDuck/status/2103802923465768972) · threejs / shader / canvas · Skillry 外部观看页，可能含重制版
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/mandelduck-768972.md)
+
+---
+
+### 17. 1990s demoscene
+
+<a href="https://skillry.dev/ai-videos/opus-5-5/gandamu-ml-220530">
+  <img src="https://media.skillry.dev/opus-5-5/gandamu-ml-220530/preview.webp" alt="外部视频预览: 1990s demoscene" width="700" />
+</a>
+
+An interactive graphics demo brief driven by a music track and shader effects.
+
+[![观看视频](https://img.shields.io/badge/WATCH_VIDEO-3158E8?style=for-the-badge)](https://skillry.dev/ai-videos/opus-5-5/gandamu-ml-220530)
+
+**原帖:** [@gandamu_ml](https://x.com/gandamu_ml/status/2102919394775220530) · threejs / shader / canvas / audio · Skillry 外部观看页，可能含重制版
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/gandamu-ml-220530.md)
+
+---
+
+### 18. Pixel wizard in one HTML file
+
+<a href="https://skillry.dev/ai-videos/opus-5-5/zacxbt-944604">
+  <img src="https://media.skillry.dev/opus-5-5/zacxbt-944604/preview.webp" alt="外部视频预览: Pixel wizard in one HTML file" width="700" />
+</a>
+
+A self contained Canvas scene featuring an animated pixel art wizard.
+
+[![观看视频](https://img.shields.io/badge/WATCH_VIDEO-3158E8?style=for-the-badge)](https://skillry.dev/ai-videos/opus-5-5/zacxbt-944604)
+
+**原帖:** [@zacxbt](https://x.com/zacxbt/status/2103808699466944604) · canvas / pixel / playable · Skillry 外部观看页，可能含重制版
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/zacxbt-944604.md)
+
+---
+
+### 19. Explore a 3D world
+
+<a href="https://skillry.dev/ai-videos/opus-5-5/lexnlin-241739">
+  <img src="https://media.skillry.dev/opus-5-5/lexnlin-241739/preview.webp" alt="外部视频预览: Explore a 3D world" width="700" />
+</a>
+
+A freely navigable browser world focused on original landscape and architecture.
+
+[![观看视频](https://img.shields.io/badge/WATCH_VIDEO-3158E8?style=for-the-badge)](https://skillry.dev/ai-videos/opus-5-5/lexnlin-241739)
+
+**原帖:** [@LexnLin](https://x.com/LexnLin/status/2103194052850241739) · threejs / shader · Skillry 外部观看页，可能含重制版
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/lexnlin-241739.md)
+
+---
+
+### 20. Pixel card game
+
+<a href="https://skillry.dev/ai-videos/opus-5-5/aisongman-461057">
+  <img src="https://media.skillry.dev/opus-5-5/aisongman-461057/preview.webp" alt="外部视频预览: Pixel card game" width="700" />
+</a>
+
+A playable one on one card game concept with pixel art presentation.
+
+[![观看视频](https://img.shields.io/badge/WATCH_VIDEO-3158E8?style=for-the-badge)](https://skillry.dev/ai-videos/opus-5-5/aisongman-461057)
+
+**原帖:** [@aisongman](https://x.com/aisongman/status/2103763192971461057) · canvas / pixel / playable · Skillry 外部观看页，可能含重制版
+
+**上游提示词:** [查看来源文件](https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/aisongman-461057.md)
+
+---
+
+<!-- GENERATED_CASE_GALLERY_END -->
 
 [在 BeatAPI 按分类和关键词浏览全部案例 →](https://beatapi.io/zh/opus-5-5-videos)
 
