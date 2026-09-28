@@ -15,33 +15,62 @@ function escapeHtml(value) {
   return value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 }
 
+function escapeTable(value) {
+  return value.replaceAll('|', '\\|').replaceAll('\n', ' ');
+}
+
 function renderCase(item, index, locale) {
   const isChinese = locale === 'zh';
   const watchUrl = item.externalWatchUrl ?? item.originalPostUrl;
   const preview = item.externalPreviewUrl
     ? `<a href="${watchUrl}">\n  <img src="${item.externalPreviewUrl}" alt="${isChinese ? '外部视频预览' : 'External video preview'}: ${escapeHtml(item.title)}" width="700" />\n</a>\n\n`
     : `_${isChinese ? '暂无可核对的视频预览；请在创作者原帖观看。' : 'No matching video preview is available; watch the creator’s original post.'}_\n\n`;
-  const badge = item.externalWatchUrl
+  const badge = item.externalWatchUrl && item.externalWatchUrl !== item.originalPostUrl
     ? `[![${isChinese ? '观看视频' : 'Watch video'}](https://img.shields.io/badge/WATCH_VIDEO-3158E8?style=for-the-badge)](${watchUrl})`
     : `[![${isChinese ? '观看原帖' : 'Watch original post'}](https://img.shields.io/badge/WATCH_ORIGINAL-3158E8?style=for-the-badge)](${watchUrl})`;
   const sourceLabel = isChinese ? '原帖' : 'Source';
   const promptLabel = isChinese ? '上游提示词' : 'Prompt at source';
-  const previewNote = item.externalWatchUrl
+  const previewNote = item.externalWatchUrl && item.externalWatchUrl !== item.originalPostUrl
     ? ` · ${isChinese ? 'Skillry 外部观看页，可能含重制版' : 'External Skillry watch page; may include a remake'}`
     : '';
 
-  return `### ${index + 1}. ${item.title}\n\n${preview}${item.summary}\n\n${badge}\n\n**${sourceLabel}:** [@${item.creator}](${item.originalPostUrl}) · ${item.techTags.join(' / ')}${previewNote}\n\n**${promptLabel}:** [${isChinese ? '查看来源文件' : 'View upstream file'}](${item.sourcePromptUrl})\n\n---`;
+  const prompt = item.sourcePromptUrl
+    ? `[${isChinese ? '查看来源文件' : 'View upstream file'}](${item.sourcePromptUrl})`
+    : isChinese ? '未核实到公开链接' : 'No verified public link';
+  return `### ${index + 1}. ${item.title}\n\n${preview}${item.summary}\n\n${badge}\n\n**${sourceLabel}:** [@${item.creator}](${item.originalPostUrl}) · ${item.techTags.join(' / ')}${previewNote}\n\n**${promptLabel}:** ${prompt}\n\n---`;
 }
 
 function renderGallery(locale) {
   let caseIndex = 0;
-  return categories
+  const featured = categories
     .map((category) => {
-      const items = catalog.cases.filter((item) => item.category === category.id);
+      const items = catalog.cases.filter((item) => item.category === category.id && item.featured);
       const blocks = items.map((item) => renderCase(item, caseIndex++, locale)).join('\n\n');
-      return `<a id="${category.id}"></a>\n\n**${category[locale]} (${items.length})**\n\n${blocks}`;
+      return `<a id="featured-${category.id}"></a>\n\n**${category[locale]} (${items.length})**\n\n${blocks}`;
     })
     .join('\n\n');
+
+  let index = 0;
+  const fullIndex = categories
+    .map((category) => {
+      const items = catalog.cases.filter((item) => item.category === category.id);
+      const header = locale === 'zh'
+        ? '| # | 案例 | 创作者原帖 | 技术 | 提示词来源 |'
+        : '| # | Case / watch | Creator post | Technology | Prompt source |';
+      const rows = items.map((item) => {
+        const watchUrl = item.externalWatchUrl ?? item.originalPostUrl;
+        const label = item.featured ? item.title : `${category[locale]} · @${item.creator} · ${item.id.slice(-6)}`;
+        index += 1;
+        const prompt = item.sourcePromptUrl
+          ? `[${locale === 'zh' ? '查看' : 'Open'}](${item.sourcePromptUrl})`
+          : locale === 'zh' ? '未核实链接' : 'No verified link';
+        return `| ${index} | [${escapeTable(label)}](${watchUrl}) | [@${escapeTable(item.creator)}](${item.originalPostUrl}) | ${escapeTable(item.techTags.join(', '))} | ${prompt} |`;
+      });
+      return `<a id="${category.id}"></a>\n\n### ${category[locale]} (${items.length})\n\n${header}\n| --- | --- | --- | --- | --- |\n${rows.join('\n')}`;
+    })
+    .join('\n\n');
+
+  return `${locale === 'zh' ? '## 精选案例' : '## Featured cases'}\n\n${featured}\n\n${locale === 'zh' ? '## 完整来源索引' : '## Complete source index'}\n\n${fullIndex}`;
 }
 
 let differs = false;
