@@ -56,7 +56,7 @@ function renderGallery(locale) {
         : '| # | Case / watch | Creator post | Technology | Prompt source |';
       const rows = items.map((item) => {
         const watchUrl = item.externalWatchUrl ?? item.originalPostUrl;
-        const label = item.featured ? item.title : `${category.en} · @${item.creator} · ${item.id.slice(-6)}`;
+        const label = item.featured ? item.title : `${category[locale]} · @${item.creator} · ${item.id.slice(-6)}`;
         index += 1;
         return `| ${index} | [${escapeTable(label)}](${watchUrl}) | [@${escapeTable(item.creator)}](${item.originalPostUrl}) | ${escapeTable(item.techTags.join(', '))} | [${locale === 'zh' ? '查看' : 'Open'}](${item.sourcePromptUrl}) |`;
       });
