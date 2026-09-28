@@ -11,7 +11,8 @@ if (!response.ok) throw new Error(`Unable to read pinned upstream index: HTTP ${
 const source = await response.json();
 assert.ok(Array.isArray(source), 'upstream index must be an array');
 
-const featured = current.cases.filter((item) => item.featured || !('featured' in item));
+const featured = current.cases.filter((item) => (item.featured || !('featured' in item)) && item.upstreamCollectionUrl);
+const directCases = current.cases.filter((item) => item.collectionSource === 'direct-x');
 const featuredByPost = new Map(featured.map((item) => [item.originalPostUrl, item]));
 const sourcePosts = new Set(source.map((item) => item.post_url));
 for (const item of featured) {
@@ -66,6 +67,9 @@ const ordered = [
   ...featured.map((item) => byPost.get(item.originalPostUrl)),
   ...indexed.filter((item) => !featuredByPost.has(item.originalPostUrl)),
 ];
-const catalog = { ...current, cases: ordered };
+for (const item of directCases) {
+  assert.ok(!byPost.has(item.originalPostUrl), `${item.id}: direct case duplicates pinned upstream`);
+}
+const catalog = { ...current, cases: [...ordered, ...directCases] };
 writeFileSync(catalogPath, `${JSON.stringify(catalog, null, 2)}\n`);
 console.log(`Indexed ${catalog.cases.length} source-linked cases; ${featured.length} featured`);

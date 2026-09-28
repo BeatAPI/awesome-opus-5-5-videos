@@ -5921,6 +5921,403 @@
       "externalPreviewUrl": "https://media.skillry.dev/opus-5-5/x4b47x-034026/original.22c8e0650a.webp",
       "externalWatchUrl": "https://skillry.dev/ai-videos/opus-5-5/x4b47x-034026",
       "featured": false
+    },
+    {
+      "id": "x-2103522230957420843",
+      "title": "Automated garden bed walkthrough",
+      "summary": "A 3D walkthrough explains the automation of elevated garden beds.",
+      "category": "explainer",
+      "techTags": [
+        "3d",
+        "automation"
+      ],
+      "creator": "Skylartkitchen",
+      "originalPostUrl": "https://x.com/Skylartkitchen/status/2103522230957420843",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2103522084995399680/img/cKd8QDhMyecaEMmE.jpg",
+      "externalWatchUrl": "https://x.com/Skylartkitchen/status/2103522230957420843"
+    },
+    {
+      "id": "x-2103653857377292720",
+      "title": "Virtual office for coding agents",
+      "summary": "An interactive office represents agents working on GitHub issues and merge conflicts.",
+      "category": "interactive",
+      "techTags": [
+        "agents",
+        "web"
+      ],
+      "creator": "webdevcody",
+      "originalPostUrl": "https://x.com/webdevcody/status/2103653857377292720",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2103653530837872640/img/X6I_6Huz3XMYdQSM.jpg",
+      "externalWatchUrl": "https://x.com/webdevcody/status/2103653857377292720"
+    },
+    {
+      "id": "x-2104094723887501736",
+      "title": "Interactive Raptor 3 engine",
+      "summary": "A browser model lets viewers disassemble a rocket engine and follow its propellant flow.",
+      "category": "interactive",
+      "techTags": [
+        "3d",
+        "web"
+      ],
+      "creator": "konstantinsaifo",
+      "originalPostUrl": "https://x.com/konstantinsaifo/status/2104094723887501736",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2104094523999563776/img/8GpsNkqJCzLpDPuq.jpg",
+      "externalWatchUrl": "https://x.com/konstantinsaifo/status/2104094723887501736"
+    },
+    {
+      "id": "x-2103494418477260830",
+      "title": "Journey inside a Blackwell GPU",
+      "summary": "A single HTML 3D animation travels from a data center through a GPU toward its silicon.",
+      "category": "3d",
+      "techTags": [
+        "html",
+        "3d"
+      ],
+      "creator": "lucian__03",
+      "originalPostUrl": "https://x.com/lucian__03/status/2103494418477260830",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2103494270854557696/img/q0pGY8xVOwOfHch7.jpg",
+      "externalWatchUrl": "https://x.com/lucian__03/status/2103494418477260830"
+    },
+    {
+      "id": "x-2104373368883662850",
+      "title": "Fantasy sci-fi browser game",
+      "summary": "A work-in-progress open world game adds quests and levels with Three.js.",
+      "category": "interactive",
+      "techTags": [
+        "threejs",
+        "game"
+      ],
+      "creator": "aniketjart",
+      "originalPostUrl": "https://x.com/aniketjart/status/2104373368883662850",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2104372925541609472/img/guvwVJd6l_nrDvRD.jpg",
+      "externalWatchUrl": "https://x.com/aniketjart/status/2104373368883662850"
+    },
+    {
+      "id": "x-2102503719762018434",
+      "title": "Sketch to 3D home",
+      "summary": "A house evolves from lines to finished architecture in a Three.js scene.",
+      "category": "3d",
+      "techTags": [
+        "threejs",
+        "tsl"
+      ],
+      "creator": "techartist_",
+      "originalPostUrl": "https://x.com/techartist_/status/2102503719762018434",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2102503194777759744/img/UjVmRn2r4o9Lz1w1.jpg",
+      "externalWatchUrl": "https://x.com/techartist_/status/2102503719762018434"
+    },
+    {
+      "id": "x-2103115767206281272",
+      "title": "The road that bends into music",
+      "summary": "An interactive road climbs walls and turns into playable musical notes.",
+      "category": "interactive",
+      "techTags": [
+        "threejs",
+        "music"
+      ],
+      "creator": "mdaman010",
+      "originalPostUrl": "https://x.com/mdaman010/status/2103115767206281272",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2103113855807447040/img/OL3W3APA0jvZMsuW.jpg",
+      "externalWatchUrl": "https://x.com/mdaman010/status/2103115767206281272"
+    },
+    {
+      "id": "x-2103393323520299428",
+      "title": "Explorable harbor town",
+      "summary": "An illustrated harbor becomes a navigable 3D town with Blender and Three.js.",
+      "category": "3d",
+      "techTags": [
+        "blender",
+        "threejs"
+      ],
+      "creator": "chetanankola",
+      "originalPostUrl": "https://x.com/chetanankola/status/2103393323520299428",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2103392375322312704/img/givKCClAa7iDj0kZ.jpg",
+      "externalWatchUrl": "https://x.com/chetanankola/status/2103393323520299428"
+    },
+    {
+      "id": "x-2104548658171834749",
+      "title": "Procedural buildings on the web",
+      "summary": "Blender geometry node buildings are ported to live Three.js node graphs.",
+      "category": "3d",
+      "techTags": [
+        "blender",
+        "threejs"
+      ],
+      "creator": "chirovisuals",
+      "originalPostUrl": "https://x.com/chirovisuals/status/2104548658171834749",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2104546444778586112/img/w7QS5ygp59Ut7ute.jpg",
+      "externalWatchUrl": "https://x.com/chirovisuals/status/2104548658171834749"
+    },
+    {
+      "id": "x-2103303906449293820",
+      "title": "Browser Spider-Man game",
+      "summary": "A browser game shows swinging, missions and a city built with Three.js and Blender.",
+      "category": "interactive",
+      "techTags": [
+        "threejs",
+        "blender"
+      ],
+      "creator": "0x0SojalSec",
+      "originalPostUrl": "https://x.com/0x0SojalSec/status/2103303906449293820",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2102931753610678272/img/uyYEUFSVjnvrYFHG.jpg",
+      "externalWatchUrl": "https://x.com/0x0SojalSec/status/2103303906449293820"
+    },
+    {
+      "id": "x-2102548517596381463",
+      "title": "Osaka Castle from lines",
+      "summary": "A Three.js scene assembles Osaka Castle from drawn lines.",
+      "category": "3d",
+      "techTags": [
+        "threejs"
+      ],
+      "creator": "onofumi_AI",
+      "originalPostUrl": "https://x.com/onofumi_AI/status/2102548517596381463",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2102548290621648897/img/kq1sDhS5XqiMuOez.jpg",
+      "externalWatchUrl": "https://x.com/onofumi_AI/status/2102548517596381463"
+    },
+    {
+      "id": "x-2102799604408631356",
+      "title": "JavaScript animation experiment",
+      "summary": "A creator shares an original JavaScript animation made with Opus 5.5.",
+      "category": "motion",
+      "techTags": [
+        "javascript"
+      ],
+      "creator": "somyatwts",
+      "originalPostUrl": "https://x.com/somyatwts/status/2102799604408631356",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2102798526992498688/img/co8z2hAidPsO6Ct0.jpg",
+      "externalWatchUrl": "https://x.com/somyatwts/status/2102799604408631356"
+    },
+    {
+      "id": "x-2102650428693647490",
+      "title": "One thread across changing worlds",
+      "summary": "A JavaScript animation keeps one thread fixed while its surrounding worlds change.",
+      "category": "motion",
+      "techTags": [
+        "javascript"
+      ],
+      "creator": "pranavhrn",
+      "originalPostUrl": "https://x.com/pranavhrn/status/2102650428693647490",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2102648301392920576/img/IZDT0GJ_mUw7S-Ct.jpg",
+      "externalWatchUrl": "https://x.com/pranavhrn/status/2102650428693647490"
+    },
+    {
+      "id": "x-2103473343596785764",
+      "title": "Forty thousand years of art",
+      "summary": "A 117-second animation draws every frame in JavaScript to survey art history.",
+      "category": "explainer",
+      "techTags": [
+        "javascript",
+        "animation"
+      ],
+      "creator": "moonshot104",
+      "originalPostUrl": "https://x.com/moonshot104/status/2103473343596785764",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2103472921381363712/img/ugLpIPKfQScywlZV.jpg",
+      "externalWatchUrl": "https://x.com/moonshot104/status/2103473343596785764"
+    },
+    {
+      "id": "x-2103765408968818795",
+      "title": "Interactive scientific article",
+      "summary": "A scientific paper becomes a motion-driven interactive web story.",
+      "category": "explainer",
+      "techTags": [
+        "web",
+        "animation"
+      ],
+      "creator": "MSafarov24",
+      "originalPostUrl": "https://x.com/MSafarov24/status/2103765408968818795",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2103765251535585280/img/FBNnlae0MQKuTZls.jpg",
+      "externalWatchUrl": "https://x.com/MSafarov24/status/2103765408968818795"
+    },
+    {
+      "id": "x-2104242902218285246",
+      "title": "Interactive house room tour",
+      "summary": "An Airbnb reference becomes a navigable Three.js house with some Tripo assets.",
+      "category": "interactive",
+      "techTags": [
+        "threejs",
+        "tripo"
+      ],
+      "creator": "truenyl",
+      "originalPostUrl": "https://x.com/truenyl/status/2104242902218285246",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2104241330486730752/img/iEuhFzCYkZ53sWtc.jpg",
+      "externalWatchUrl": "https://x.com/truenyl/status/2104242902218285246"
+    },
+    {
+      "id": "x-2104516868182598079",
+      "title": "Interactive F135 engine",
+      "summary": "A browser model lets viewers take apart a fighter jet engine and inspect airflow.",
+      "category": "interactive",
+      "techTags": [
+        "3d",
+        "web"
+      ],
+      "creator": "konstantinsaifo",
+      "originalPostUrl": "https://x.com/konstantinsaifo/status/2104516868182598079",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2104515835666526208/img/ZYudYigjAv8XWh0L.jpg",
+      "externalWatchUrl": "https://x.com/konstantinsaifo/status/2104516868182598079"
+    },
+    {
+      "id": "x-2103044654187081860",
+      "title": "Interactive camera lens lab",
+      "summary": "A 3D camera lab changes focus and lens elements to explain depth of field.",
+      "category": "interactive",
+      "techTags": [
+        "3d",
+        "web"
+      ],
+      "creator": "chudry223",
+      "originalPostUrl": "https://x.com/chudry223/status/2103044654187081860",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2103044591888863232/img/JcSLs0zOzMWw41pE.jpg",
+      "externalWatchUrl": "https://x.com/chudry223/status/2103044654187081860"
+    },
+    {
+      "id": "x-2104548771161862386",
+      "title": "Inside an H100 GPU",
+      "summary": "An interactive browser model lets viewers disassemble and zoom into an H100 GPU.",
+      "category": "interactive",
+      "techTags": [
+        "3d",
+        "web"
+      ],
+      "creator": "thminassian",
+      "originalPostUrl": "https://x.com/thminassian/status/2104548771161862386",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2104546937001156609/img/KdQ-dG6paAULkFSK.jpg",
+      "externalWatchUrl": "https://x.com/thminassian/status/2104548771161862386"
+    },
+    {
+      "id": "x-2103115037334262241",
+      "title": "Five motion graphics use cases",
+      "summary": "A creator walkthrough shows business motion graphics cases and explains the prompts and tools.",
+      "category": "motion",
+      "techTags": [
+        "motion-graphics",
+        "tutorial"
+      ],
+      "creator": "moritzkremb",
+      "originalPostUrl": "https://x.com/moritzkremb/status/2103115037334262241",
+      "collectionSource": "direct-x",
+      "evidenceStatus": "creator-post-checked",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "featured": false,
+      "externalPreviewUrl": "https://pbs.twimg.com/amplify_video_thumb/2103113817718677506/img/Rh3ZeNUKq-SP6doX.jpg",
+      "externalWatchUrl": "https://x.com/moritzkremb/status/2103115037334262241"
     }
   ]
 }
