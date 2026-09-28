@@ -23,6 +23,11 @@ for (const item of catalog.cases) {
   assert.equal(item.promptRights, 'external-link-only');
   assert.equal(item.mediaRights, 'external-link-only');
   assert.ok(!('prompt' in item) && !('video' in item) && !('posterUrl' in item), `${item.id}: third-party content must remain linked`);
+  assert.equal('externalPreviewUrl' in item, 'externalWatchUrl' in item, `${item.id}: preview and watch links must be paired`);
+  if (item.externalPreviewUrl) {
+    assert.equal(item.externalPreviewUrl, `https://media.skillry.dev/opus-5-5/${item.id}/preview.webp`);
+    assert.equal(item.externalWatchUrl, `https://skillry.dev/ai-videos/opus-5-5/${item.id}`);
+  }
   assert.ok(!ids.has(item.id), `${item.id}: duplicate id`);
   assert.ok(!posts.has(item.originalPostUrl), `${item.id}: duplicate original post`);
   ids.add(item.id);

@@ -3,23 +3,6 @@
   "reviewedAt": "2026-09-27",
   "cases": [
     {
-      "id": "twoclipping-402193",
-      "title": "Morphing UI states",
-      "summary": "A shape changes through multiple interface states, showing how SVG motion can connect product moments.",
-      "category": "motion",
-      "techTags": [
-        "svg"
-      ],
-      "creator": "twoclipping",
-      "originalPostUrl": "https://x.com/twoclipping/status/2103273003555402193",
-      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/twoclipping-402193.md",
-      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
-      "evidenceStatus": "source-listed",
-      "promptRights": "external-link-only",
-      "mediaRights": "external-link-only",
-      "productionMethod": "creative-coding"
-    },
-    {
       "id": "anabology-491441",
       "title": "Music led progress montage",
       "summary": "A motion piece built around a supplied song and reference clip, with Canvas and image assets.",
@@ -35,7 +18,9 @@
       "evidenceStatus": "source-listed",
       "promptRights": "external-link-only",
       "mediaRights": "external-link-only",
-      "productionMethod": "creative-coding"
+      "productionMethod": "creative-coding",
+      "externalPreviewUrl": "https://media.skillry.dev/opus-5-5/anabology-491441/preview.webp",
+      "externalWatchUrl": "https://skillry.dev/ai-videos/opus-5-5/anabology-491441"
     },
     {
       "id": "moritzkremb-466494",
@@ -53,7 +38,9 @@
       "evidenceStatus": "source-listed",
       "promptRights": "external-link-only",
       "mediaRights": "external-link-only",
-      "productionMethod": "creative-coding"
+      "productionMethod": "creative-coding",
+      "externalPreviewUrl": "https://media.skillry.dev/opus-5-5/moritzkremb-466494/preview.webp",
+      "externalWatchUrl": "https://skillry.dev/ai-videos/opus-5-5/moritzkremb-466494"
     },
     {
       "id": "melvynx-638493",
@@ -68,6 +55,25 @@
       "creator": "melvynx",
       "originalPostUrl": "https://x.com/melvynx/status/2103714680577638493",
       "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/melvynx-638493.md",
+      "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "evidenceStatus": "source-listed",
+      "promptRights": "external-link-only",
+      "mediaRights": "external-link-only",
+      "productionMethod": "creative-coding",
+      "externalPreviewUrl": "https://media.skillry.dev/opus-5-5/melvynx-638493/preview.webp",
+      "externalWatchUrl": "https://skillry.dev/ai-videos/opus-5-5/melvynx-638493"
+    },
+    {
+      "id": "twoclipping-402193",
+      "title": "Morphing UI states",
+      "summary": "A shape changes through multiple interface states, showing how SVG motion can connect product moments.",
+      "category": "motion",
+      "techTags": [
+        "svg"
+      ],
+      "creator": "twoclipping",
+      "originalPostUrl": "https://x.com/twoclipping/status/2103273003555402193",
+      "sourcePromptUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/1c092195b7bda246455827bc0be820be6d6a7b97/prompts/twoclipping-402193.md",
       "upstreamCollectionUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
       "evidenceStatus": "source-listed",
       "promptRights": "external-link-only",
@@ -107,7 +113,9 @@
       "evidenceStatus": "source-listed",
       "promptRights": "external-link-only",
       "mediaRights": "external-link-only",
-      "productionMethod": "creative-coding"
+      "productionMethod": "creative-coding",
+      "externalPreviewUrl": "https://media.skillry.dev/opus-5-5/koldo2k-778767/preview.webp",
+      "externalWatchUrl": "https://skillry.dev/ai-videos/opus-5-5/koldo2k-778767"
     },
     {
       "id": "ror-fly-880547",
@@ -124,7 +132,9 @@
       "evidenceStatus": "source-listed",
       "promptRights": "external-link-only",
       "mediaRights": "external-link-only",
-      "productionMethod": "creative-coding"
+      "productionMethod": "creative-coding",
+      "externalPreviewUrl": "https://media.skillry.dev/opus-5-5/ror-fly-880547/preview.webp",
+      "externalWatchUrl": "https://skillry.dev/ai-videos/opus-5-5/ror-fly-880547"
     },
     {
       "id": "deedydas-252537",
@@ -142,7 +152,9 @@
       "evidenceStatus": "source-listed",
       "promptRights": "external-link-only",
       "mediaRights": "external-link-only",
-      "productionMethod": "creative-coding"
+      "productionMethod": "creative-coding",
+      "externalPreviewUrl": "https://media.skillry.dev/opus-5-5/deedydas-252537/preview.webp",
+      "externalWatchUrl": "https://skillry.dev/ai-videos/opus-5-5/deedydas-252537"
     },
     {
       "id": "verbove-268381",
@@ -159,7 +171,9 @@
       "evidenceStatus": "source-listed",
       "promptRights": "external-link-only",
       "mediaRights": "external-link-only",
-      "productionMethod": "creative-coding"
+      "productionMethod": "creative-coding",
+      "externalPreviewUrl": "https://media.skillry.dev/opus-5-5/verbove-268381/preview.webp",
+      "externalWatchUrl": "https://skillry.dev/ai-videos/opus-5-5/verbove-268381"
     },
     {
       "id": "linearuncle-971663",
@@ -177,7 +191,9 @@
       "evidenceStatus": "source-listed",
       "promptRights": "external-link-only",
       "mediaRights": "external-link-only",
-      "productionMethod": "creative-coding"
+      "productionMethod": "creative-coding",
+      "externalPreviewUrl": "https://media.skillry.dev/opus-5-5/linearuncle-971663/preview.webp",
+      "externalWatchUrl": "https://skillry.dev/ai-videos/opus-5-5/linearuncle-971663"
     },
     {
       "id": "dannnnnok-716687",
@@ -195,7 +211,9 @@
       "evidenceStatus": "source-listed",
       "promptRights": "external-link-only",
       "mediaRights": "external-link-only",
-      "productionMethod": "creative-coding"
+      "productionMethod": "creative-coding",
+      "externalPreviewUrl": "https://media.skillry.dev/opus-5-5/dannnnnok-716687/preview.webp",
+      "externalWatchUrl": "https://skillry.dev/ai-videos/opus-5-5/dannnnnok-716687"
     },
     {
       "id": "bthreeagency-827092",
@@ -214,7 +232,9 @@
       "evidenceStatus": "source-listed",
       "promptRights": "external-link-only",
       "mediaRights": "external-link-only",
-      "productionMethod": "creative-coding"
+      "productionMethod": "creative-coding",
+      "externalPreviewUrl": "https://media.skillry.dev/opus-5-5/bthreeagency-827092/preview.webp",
+      "externalWatchUrl": "https://skillry.dev/ai-videos/opus-5-5/bthreeagency-827092"
     },
     {
       "id": "alexalbert-274839",
@@ -233,7 +253,9 @@
       "evidenceStatus": "source-listed",
       "promptRights": "external-link-only",
       "mediaRights": "external-link-only",
-      "productionMethod": "creative-coding"
+      "productionMethod": "creative-coding",
+      "externalPreviewUrl": "https://media.skillry.dev/opus-5-5/alexalbert-274839/preview.webp",
+      "externalWatchUrl": "https://skillry.dev/ai-videos/opus-5-5/alexalbert-274839"
     },
     {
       "id": "michaelzsguo-782312",
@@ -251,7 +273,9 @@
       "evidenceStatus": "source-listed",
       "promptRights": "external-link-only",
       "mediaRights": "external-link-only",
-      "productionMethod": "creative-coding"
+      "productionMethod": "creative-coding",
+      "externalPreviewUrl": "https://media.skillry.dev/opus-5-5/michaelzsguo-782312/preview.webp",
+      "externalWatchUrl": "https://skillry.dev/ai-videos/opus-5-5/michaelzsguo-782312"
     },
     {
       "id": "lukasersil-726495",
@@ -271,7 +295,9 @@
       "evidenceStatus": "source-listed",
       "promptRights": "external-link-only",
       "mediaRights": "external-link-only",
-      "productionMethod": "creative-coding"
+      "productionMethod": "creative-coding",
+      "externalPreviewUrl": "https://media.skillry.dev/opus-5-5/lukasersil-726495/preview.webp",
+      "externalWatchUrl": "https://skillry.dev/ai-videos/opus-5-5/lukasersil-726495"
     },
     {
       "id": "mandelduck-768972",
@@ -290,7 +316,9 @@
       "evidenceStatus": "source-listed",
       "promptRights": "external-link-only",
       "mediaRights": "external-link-only",
-      "productionMethod": "creative-coding"
+      "productionMethod": "creative-coding",
+      "externalPreviewUrl": "https://media.skillry.dev/opus-5-5/mandelduck-768972/preview.webp",
+      "externalWatchUrl": "https://skillry.dev/ai-videos/opus-5-5/mandelduck-768972"
     },
     {
       "id": "gandamu-ml-220530",
@@ -310,7 +338,9 @@
       "evidenceStatus": "source-listed",
       "promptRights": "external-link-only",
       "mediaRights": "external-link-only",
-      "productionMethod": "creative-coding"
+      "productionMethod": "creative-coding",
+      "externalPreviewUrl": "https://media.skillry.dev/opus-5-5/gandamu-ml-220530/preview.webp",
+      "externalWatchUrl": "https://skillry.dev/ai-videos/opus-5-5/gandamu-ml-220530"
     },
     {
       "id": "zacxbt-944604",
@@ -329,7 +359,9 @@
       "evidenceStatus": "source-listed",
       "promptRights": "external-link-only",
       "mediaRights": "external-link-only",
-      "productionMethod": "creative-coding"
+      "productionMethod": "creative-coding",
+      "externalPreviewUrl": "https://media.skillry.dev/opus-5-5/zacxbt-944604/preview.webp",
+      "externalWatchUrl": "https://skillry.dev/ai-videos/opus-5-5/zacxbt-944604"
     },
     {
       "id": "lexnlin-241739",
@@ -347,7 +379,9 @@
       "evidenceStatus": "source-listed",
       "promptRights": "external-link-only",
       "mediaRights": "external-link-only",
-      "productionMethod": "creative-coding"
+      "productionMethod": "creative-coding",
+      "externalPreviewUrl": "https://media.skillry.dev/opus-5-5/lexnlin-241739/preview.webp",
+      "externalWatchUrl": "https://skillry.dev/ai-videos/opus-5-5/lexnlin-241739"
     },
     {
       "id": "aisongman-461057",
@@ -366,7 +400,9 @@
       "evidenceStatus": "source-listed",
       "promptRights": "external-link-only",
       "mediaRights": "external-link-only",
-      "productionMethod": "creative-coding"
+      "productionMethod": "creative-coding",
+      "externalPreviewUrl": "https://media.skillry.dev/opus-5-5/aisongman-461057/preview.webp",
+      "externalWatchUrl": "https://skillry.dev/ai-videos/opus-5-5/aisongman-461057"
     }
   ]
 }
