@@ -15,6 +15,10 @@ function escapeHtml(value) {
   return value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 }
 
+function escapeTable(value) {
+  return value.replaceAll('|', '\\|').replaceAll('\n', ' ');
+}
+
 function renderCase(item, index, locale) {
   const isChinese = locale === 'zh';
   const watchUrl = item.externalWatchUrl ?? item.originalPostUrl;
@@ -35,13 +39,32 @@ function renderCase(item, index, locale) {
 
 function renderGallery(locale) {
   let caseIndex = 0;
-  return categories
+  const featured = categories
     .map((category) => {
-      const items = catalog.cases.filter((item) => item.category === category.id);
+      const items = catalog.cases.filter((item) => item.category === category.id && item.featured);
       const blocks = items.map((item) => renderCase(item, caseIndex++, locale)).join('\n\n');
-      return `<a id="${category.id}"></a>\n\n**${category[locale]} (${items.length})**\n\n${blocks}`;
+      return `<a id="featured-${category.id}"></a>\n\n**${category[locale]} (${items.length})**\n\n${blocks}`;
     })
     .join('\n\n');
+
+  let index = 0;
+  const fullIndex = categories
+    .map((category) => {
+      const items = catalog.cases.filter((item) => item.category === category.id);
+      const header = locale === 'zh'
+        ? '| # | 案例 | 创作者原帖 | 技术 | 提示词来源 |'
+        : '| # | Case / watch | Creator post | Technology | Prompt source |';
+      const rows = items.map((item) => {
+        const watchUrl = item.externalWatchUrl ?? item.originalPostUrl;
+        const label = item.featured ? item.title : `${category.en} · @${item.creator} · ${item.id.slice(-6)}`;
+        index += 1;
+        return `| ${index} | [${escapeTable(label)}](${watchUrl}) | [@${escapeTable(item.creator)}](${item.originalPostUrl}) | ${escapeTable(item.techTags.join(', '))} | [${locale === 'zh' ? '查看' : 'Open'}](${item.sourcePromptUrl}) |`;
+      });
+      return `<a id="${category.id}"></a>\n\n### ${category[locale]} (${items.length})\n\n${header}\n| --- | --- | --- | --- | --- |\n${rows.join('\n')}`;
+    })
+    .join('\n\n');
+
+  return `${locale === 'zh' ? '## 精选案例' : '## Featured cases'}\n\n${featured}\n\n${locale === 'zh' ? '## 完整来源索引' : '## Complete source index'}\n\n${fullIndex}`;
 }
 
 let differs = false;

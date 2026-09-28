@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "index:sync": "node scripts/import-upstream-index.mjs && node scripts/generate-readme-gallery.mjs",
     "gallery:sync": "node scripts/generate-readme-gallery.mjs",
     "test": "node scripts/validate-catalog.mjs && node scripts/generate-readme-gallery.mjs --check"
   }
